@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD7E6F9253E9DA400B26E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E6F8253E9DA400B26E9B /* AppDelegate.swift */; };
+		3DD7E6FB253E9DA400B26E9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E6FA253E9DA400B26E9B /* SceneDelegate.swift */; };
+		3DD7E6FD253E9DA400B26E9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E6FC253E9DA400B26E9B /* ViewController.swift */; };
+		3DD7E700253E9DA400B26E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E6FE253E9DA400B26E9B /* Main.storyboard */; };
+		3DD7E702253E9DBA00B26E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E701253E9DBA00B26E9B /* Assets.xcassets */; };
+		3DD7E705253E9DBA00B26E9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD7E703253E9DBA00B26E9B /* LaunchScreen.storyboard */; };
+		3DD7E710253E9DBA00B26E9B /* Examen_Zoologico_2P_RFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E70F253E9DBA00B26E9B /* Examen_Zoologico_2P_RFTests.swift */; };
+		3DD7E71B253E9DBA00B26E9B /* Examen_Zoologico_2P_RFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD7E71A253E9DBA00B26E9B /* Examen_Zoologico_2P_RFUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD7E70C253E9DBA00B26E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD7E6ED253E9DA300B26E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD7E6F4253E9DA300B26E9B;
+			remoteInfo = "Examen Zoologico 2P RF";
+		};
+		3DD7E717253E9DBA00B26E9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD7E6ED253E9DA300B26E9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD7E6F4253E9DA300B26E9B;
+			remoteInfo = "Examen Zoologico 2P RF";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD7E6F5253E9DA300B26E9B /* Examen Zoologico 2P RF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Examen Zoologico 2P RF.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD7E6F8253E9DA400B26E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DD7E6FA253E9DA400B26E9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3DD7E6FC253E9DA400B26E9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD7E6FF253E9DA400B26E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DD7E701253E9DBA00B26E9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DD7E704253E9DBA00B26E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DD7E706253E9DBA00B26E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD7E70B253E9DBA00B26E9B /* Examen Zoologico 2P RFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Examen Zoologico 2P RFTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD7E70F253E9DBA00B26E9B /* Examen_Zoologico_2P_RFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examen_Zoologico_2P_RFTests.swift; sourceTree = "<group>"; };
+		3DD7E711253E9DBA00B26E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD7E716253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Examen Zoologico 2P RFUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD7E71A253E9DBA00B26E9B /* Examen_Zoologico_2P_RFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examen_Zoologico_2P_RFUITests.swift; sourceTree = "<group>"; };
+		3DD7E71C253E9DBA00B26E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD7E6F2253E9DA300B26E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD7E708253E9DBA00B26E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD7E713253E9DBA00B26E9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD7E6EC253E9DA300B26E9B = {
+			isa = PBXGroup;
+			children = (
+				3DD7E6F7253E9DA300B26E9B /* Examen Zoologico 2P RF */,
+				3DD7E70E253E9DBA00B26E9B /* Examen Zoologico 2P RFTests */,
+				3DD7E719253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests */,
+				3DD7E6F6253E9DA300B26E9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD7E6F6253E9DA300B26E9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7E6F5253E9DA300B26E9B /* Examen Zoologico 2P RF.app */,
+				3DD7E70B253E9DBA00B26E9B /* Examen Zoologico 2P RFTests.xctest */,
+				3DD7E716253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD7E6F7253E9DA300B26E9B /* Examen Zoologico 2P RF */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7E6F8253E9DA400B26E9B /* AppDelegate.swift */,
+				3DD7E6FA253E9DA400B26E9B /* SceneDelegate.swift */,
+				3DD7E6FC253E9DA400B26E9B /* ViewController.swift */,
+				3DD7E6FE253E9DA400B26E9B /* Main.storyboard */,
+				3DD7E701253E9DBA00B26E9B /* Assets.xcassets */,
+				3DD7E703253E9DBA00B26E9B /* LaunchScreen.storyboard */,
+				3DD7E706253E9DBA00B26E9B /* Info.plist */,
+			);
+			path = "Examen Zoologico 2P RF";
+			sourceTree = "<group>";
+		};
+		3DD7E70E253E9DBA00B26E9B /* Examen Zoologico 2P RFTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7E70F253E9DBA00B26E9B /* Examen_Zoologico_2P_RFTests.swift */,
+				3DD7E711253E9DBA00B26E9B /* Info.plist */,
+			);
+			path = "Examen Zoologico 2P RFTests";
+			sourceTree = "<group>";
+		};
+		3DD7E719253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD7E71A253E9DBA00B26E9B /* Examen_Zoologico_2P_RFUITests.swift */,
+				3DD7E71C253E9DBA00B26E9B /* Info.plist */,
+			);
+			path = "Examen Zoologico 2P RFUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD7E6F4253E9DA300B26E9B /* Examen Zoologico 2P RF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD7E71F253E9DBA00B26E9B /* Build configuration list for PBXNativeTarget "Examen Zoologico 2P RF" */;
+			buildPhases = (
+				3DD7E6F1253E9DA300B26E9B /* Sources */,
+				3DD7E6F2253E9DA300B26E9B /* Frameworks */,
+				3DD7E6F3253E9DA300B26E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Examen Zoologico 2P RF";
+			productName = "Examen Zoologico 2P RF";
+			productReference = 3DD7E6F5253E9DA300B26E9B /* Examen Zoologico 2P RF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD7E70A253E9DBA00B26E9B /* Examen Zoologico 2P RFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD7E722253E9DBA00B26E9B /* Build configuration list for PBXNativeTarget "Examen Zoologico 2P RFTests" */;
+			buildPhases = (
+				3DD7E707253E9DBA00B26E9B /* Sources */,
+				3DD7E708253E9DBA00B26E9B /* Frameworks */,
+				3DD7E709253E9DBA00B26E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD7E70D253E9DBA00B26E9B /* PBXTargetDependency */,
+			);
+			name = "Examen Zoologico 2P RFTests";
+			productName = "Examen Zoologico 2P RFTests";
+			productReference = 3DD7E70B253E9DBA00B26E9B /* Examen Zoologico 2P RFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DD7E715253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD7E725253E9DBA00B26E9B /* Build configuration list for PBXNativeTarget "Examen Zoologico 2P RFUITests" */;
+			buildPhases = (
+				3DD7E712253E9DBA00B26E9B /* Sources */,
+				3DD7E713253E9DBA00B26E9B /* Frameworks */,
+				3DD7E714253E9DBA00B26E9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD7E718253E9DBA00B26E9B /* PBXTargetDependency */,
+			);
+			name = "Examen Zoologico 2P RFUITests";
+			productName = "Examen Zoologico 2P RFUITests";
+			productReference = 3DD7E716253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD7E6ED253E9DA300B26E9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ulsa;
+				TargetAttributes = {
+					3DD7E6F4253E9DA300B26E9B = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3DD7E70A253E9DBA00B26E9B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3DD7E6F4253E9DA300B26E9B;
+					};
+					3DD7E715253E9DBA00B26E9B = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 3DD7E6F4253E9DA300B26E9B;
+					};
+				};
+			};
+			buildConfigurationList = 3DD7E6F0253E9DA300B26E9B /* Build configuration list for PBXProject "Examen Zoologico 2P RF" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD7E6EC253E9DA300B26E9B;
+			productRefGroup = 3DD7E6F6253E9DA300B26E9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD7E6F4253E9DA300B26E9B /* Examen Zoologico 2P RF */,
+				3DD7E70A253E9DBA00B26E9B /* Examen Zoologico 2P RFTests */,
+				3DD7E715253E9DBA00B26E9B /* Examen Zoologico 2P RFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD7E6F3253E9DA300B26E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD7E705253E9DBA00B26E9B /* LaunchScreen.storyboard in Resources */,
+				3DD7E702253E9DBA00B26E9B /* Assets.xcassets in Resources */,
+				3DD7E700253E9DA400B26E9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD7E709253E9DBA00B26E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD7E714253E9DBA00B26E9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD7E6F1253E9DA300B26E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD7E6FD253E9DA400B26E9B /* ViewController.swift in Sources */,
+				3DD7E6F9253E9DA400B26E9B /* AppDelegate.swift in Sources */,
+				3DD7E6FB253E9DA400B26E9B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD7E707253E9DBA00B26E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD7E710253E9DBA00B26E9B /* Examen_Zoologico_2P_RFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD7E712253E9DBA00B26E9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD7E71B253E9DBA00B26E9B /* Examen_Zoologico_2P_RFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD7E70D253E9DBA00B26E9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD7E6F4253E9DA300B26E9B /* Examen Zoologico 2P RF */;
+			targetProxy = 3DD7E70C253E9DBA00B26E9B /* PBXContainerItemProxy */;
+		};
+		3DD7E718253E9DBA00B26E9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD7E6F4253E9DA300B26E9B /* Examen Zoologico 2P RF */;
+			targetProxy = 3DD7E717253E9DBA00B26E9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DD7E6FE253E9DA400B26E9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD7E6FF253E9DA400B26E9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DD7E703253E9DBA00B26E9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD7E704253E9DBA00B26E9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD7E71D253E9DBA00B26E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DD7E71E253E9DBA00B26E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DD7E720253E9DBA00B26E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Examen Zoologico 2P RF/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Examen-Zoologico-2P-RF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DD7E721253E9DBA00B26E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Examen Zoologico 2P RF/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Examen-Zoologico-2P-RF";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DD7E723253E9DBA00B26E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Examen Zoologico 2P RFTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Examen-Zoologico-2P-RFTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Examen Zoologico 2P RF.app/Examen Zoologico 2P RF";
+			};
+			name = Debug;
+		};
+		3DD7E724253E9DBA00B26E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Examen Zoologico 2P RFTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Examen-Zoologico-2P-RFTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Examen Zoologico 2P RF.app/Examen Zoologico 2P RF";
+			};
+			name = Release;
+		};
+		3DD7E726253E9DBA00B26E9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Examen Zoologico 2P RFUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Examen-Zoologico-2P-RFUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Examen Zoologico 2P RF";
+			};
+			name = Debug;
+		};
+		3DD7E727253E9DBA00B26E9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Examen Zoologico 2P RFUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.Examen-Zoologico-2P-RFUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Examen Zoologico 2P RF";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD7E6F0253E9DA300B26E9B /* Build configuration list for PBXProject "Examen Zoologico 2P RF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD7E71D253E9DBA00B26E9B /* Debug */,
+				3DD7E71E253E9DBA00B26E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD7E71F253E9DBA00B26E9B /* Build configuration list for PBXNativeTarget "Examen Zoologico 2P RF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD7E720253E9DBA00B26E9B /* Debug */,
+				3DD7E721253E9DBA00B26E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD7E722253E9DBA00B26E9B /* Build configuration list for PBXNativeTarget "Examen Zoologico 2P RFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD7E723253E9DBA00B26E9B /* Debug */,
+				3DD7E724253E9DBA00B26E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD7E725253E9DBA00B26E9B /* Build configuration list for PBXNativeTarget "Examen Zoologico 2P RFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD7E726253E9DBA00B26E9B /* Debug */,
+				3DD7E727253E9DBA00B26E9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD7E6ED253E9DA300B26E9B /* Project object */;
+}
